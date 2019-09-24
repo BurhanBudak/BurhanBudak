@@ -12,12 +12,13 @@ export default () => {
     <Header color='yellow' >
     </Header>
     <Main>
-    <div >
     
-    <h2>Burhan Budak - Front-end student</h2>
+    
+    <h1>Burhan Budak</h1>
+    <p>- Front-end student</p>
       
       
-    </div>
+    
    
     </Main>
     </Layout>

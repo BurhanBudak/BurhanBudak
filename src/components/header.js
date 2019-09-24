@@ -12,7 +12,7 @@ export default (props) => (
       <header className={headerStyles.header}>
         <Link className={headerStyles.logo} to="/" style={{ textShadow: `none`,  textDecoration:'none',}}>
         <span className={headerStyles.span} style={{backgroundColor:props.color}} >BB</span>
-          <h1 style={{ color:'white', }}>BURHAN BUDAK</h1>
+          <h1 className={headerStyles.header_h1} style={{ color:'white', }}>BURHAN BUDAK</h1>
         </Link>
 
     <nav>

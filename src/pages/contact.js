@@ -10,7 +10,7 @@ export default () => (
 
         </Header>
         <Main>
-        <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+        <form method="post" netlify-honeypot="bot-field" data-netlify="true" netlify>
                    <input type="hidden" name="bot-field" />
                 <label>
                  Name

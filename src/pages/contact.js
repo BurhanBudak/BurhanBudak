@@ -10,11 +10,12 @@ export default () => (
 
         </Header>
         <Main>
-                <form method="post" action="#">
-                        <label>
-                        Name
-                        <input type="text" name="name" id="name" />
-                        </label>
+        <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+                   <input type="hidden" name="bot-field" />
+                <label>
+                 Name
+                <input type="text" name="name" id="name" />
+                </label>
                         <label>
                         Email
                         <input type="email" name="email" id="email" />
@@ -29,7 +30,7 @@ export default () => (
                         </label>
                         <button type="submit">Send</button>
                         <input type="reset" value="Clear" />
-                </form>
+        </form>
         </Main>
         </Layout>
 

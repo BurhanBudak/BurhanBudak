@@ -2,10 +2,10 @@ import React from "react"
 import FormStyles from  "./form.module.scss"
 
 export default () => (
-    <div className={FormStyles.contact}>
+    <div >
 
    
-        <div class="contact">
+        <div className={FormStyles.contact}>
             <form 
             method="post" 
             netlify-honeypot="bot-field" 
@@ -15,45 +15,41 @@ export default () => (
             class="contactForm"
             >
                         <input type="hidden" name="bot-field" />
-                        <p>
+                        
                             <label>
                             Name
                             <input type="text" name="name" id="name" required />
                             </label>
-                        </p>
-                        <p>
+                        
                             <label>
                             Email
                             <input type="email" name="email" id="email" required />
                             </label>
-                        </p>
-                        <p>
+                        
+                        
                             <label>
                                 Phone number
-                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required/>
+                                <input type="tel" id="phone" name="phone" required/>
                             </label>
-                        </p>
-                        <p>
-                        <label>
+                        
+                        
+                            <label>
                             Subject
                             <input type="text" name="subject" id="subject" required />
                             </label>
-                        </p>
-                        <p class="wide">
-                                <label>
-                                Message
-                                <textarea name="message" id="message" rows="5" />
-                                </label>
-                        </p>
-                        <p>
-                                <div data-netlify-recaptcha="true"></div>
-                        </p>
-                        <p class="wide">
-                                <button type="submit" class="button">Send</button>
-                        </p>
-                        <p class="wide">
-                                <input type="reset" value="Clear" />
-                        </p>
+                       <div className={FormStyles.wide}>
+                            <label>
+                            Message
+                            <textarea name="message" id="message" rows="5" />
+                            </label>
+                        </div>
+                        
+                           
+                            <button class="button" type="submit">Send</button>
+                       
+                            <input type="reset" value="Clear" />
+                    
+                        
                 </form>
             </div>
     </div>

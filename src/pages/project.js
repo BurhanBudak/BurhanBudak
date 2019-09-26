@@ -2,25 +2,31 @@ import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Main from "../components/main"
+
 import { graphql } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 export default ({ data }) => {
    
   
-        
+  
     console.log(data)
     return (
       <Layout>
         <Header color='#16a085'>
         </Header>
-        <Main>
+        <Main headerText="Projects">
+
         <div>
           
-          <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+          <h4 style={{color:"#16a085"}}>{data.allMarkdownRemark.totalCount} Posts</h4>
+          
           {data.allMarkdownRemark.edges.map(({ node }) => (
+          
+            
+              
             <div key={node.id}>
-              <h3
+              <h3 style={{color:"#16a085"}}
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
                 `}
@@ -35,10 +41,12 @@ export default ({ data }) => {
                 </span>
               </h3>
               <div dangerouslySetInnerHTML={{__html:node.html}}>
-
+                  
               </div>
             </div>
+           
           ))}
+         
         </div>
         </Main>
       </Layout>

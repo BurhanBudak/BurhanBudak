@@ -6,21 +6,19 @@ import Main from "../components/main"
 
 
 
+
 export default () => {
   return (
     <Layout>
     <Header color='yellow' >
     </Header>
-    <Main>
+    <Main headerText="Burhan Budak">
     
     
-    <h1>Burhan Budak</h1>
-    <p>- Front-end student</p>
+    <h2 style={{color:'yellow'}} >- Front-end student</h2>
       
-      
-    
-   
-    </Main>
+    </Main  >
     </Layout>
   )
 }
+

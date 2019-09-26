@@ -10,7 +10,8 @@ export default () => (
         <Header color="#2980b9">
 
         </Header>
-        <Main>
+        <Main headerText="Contact">
+                <h2 style={{ color:"#2980b9"}}>Contact me for further questions</h2>
         <Form>
                 
         </Form>

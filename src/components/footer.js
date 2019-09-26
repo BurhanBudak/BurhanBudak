@@ -11,6 +11,6 @@ export default () => (
             <div><a href="https://github.com/BurhanBudak" target="_blank"  rel="noopener noreferrer"><FaGithub/></a></div>
             <div><a href="https://www.linkedin.com/in/burhan-budak-6921b2130/" target="_blank"  rel="noopener noreferrer"><FaLinkedinIn/></a></div>
         </div>
-        <small>Skapare: 2019 © Burhan</small>
+        <small>Copyright: 2019 © Burhan Budak</small>
     </footer>
 )

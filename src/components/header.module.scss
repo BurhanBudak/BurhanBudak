@@ -44,6 +44,9 @@
 
 
 }
+ul>li{
+    font-size: 20px;
+}
 ul>li>a{
     transition: width 0.5s ease, 0.2s ease;
 }
@@ -72,5 +75,8 @@ ul>li>a{
     header:hover .header_h1{
         transform: translate3d(80px, 0px, 0px);
         
+    }
+    ul>li{
+        font-size: 26px;
     }
 }

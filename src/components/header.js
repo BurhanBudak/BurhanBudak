@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
 
 const ListLink = props => (
-    <li style={{ display: `inline-block`, marginRight: `1rem`, fontSize: `26px`, color: 'white'}}>
+    <li style={{ display: `inline-block`, marginRight: `1rem`, color: 'white'}}>
       <Link style={{textDecoration: 'none', borderColor:props.color}} to={props.to}>{props.children}</Link>
     </li>
   )

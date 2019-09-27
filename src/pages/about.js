@@ -16,12 +16,11 @@ console.log(data)
             <Header color="#e74c3c">
         </Header>
         <Main headerText="About me">
-        {/* <img alt="burhan" src={"/img/profilbild2.jpg"} style={{borderRadius: `50%`, width:`300px`,height:`300px`}}></img> */}
         <Img
         fluid={data.image.childImageSharp.fluid}
         />
       <figcaption>
-    <p style={{maxWidth:`400px`}}>Hej, mitt namn är Burhan Budak och just nu studerar jag till Front-end utvecklare hos yrkeshögskolan Nackademin. I min utbildning så lär jag mig allt inom webbutveckling som JavaScript,HTML, CSS, ramverk och lite back-end. Anledningen för att jag valde Front-end är för att jag har märkt hur webben växer och hur webbutveckling är viktigt för spridningen av information.</p>
+    <p style={{maxWidth:`400px`}}>Hi, my name is Burhan Budak and right now I am studying to become a Front-end developer at Nackademin vocational school. In my education I learn everything in web development such as JavaScript, HTML, CSS, frameworks and some back-end. The reason I chose Front-end is because I have noticed how the web is growing and how web development is important for the presentation of information.</p>
       </figcaption> 
     </Main>
         </Layout>

@@ -45,9 +45,9 @@ export default () => (
                         </div>
                         
                            
-                            <button class="button" type="submit">Send</button>
+                            <button className={FormStyles.button} type="submit">Send</button>
                        
-                            <input type="reset" value="Clear" />
+                            <input className={FormStyles.button} type="reset" value="Clear" />
                     
                         
                 </form>

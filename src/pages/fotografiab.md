@@ -3,7 +3,7 @@ title: "Fotografi AB"
 date: "2019-03-10"
 featuredImage: ./img/Fotografi.png
 ---
-Detta projekt var mitt första enskilda arbete. Jag fick en beställning av min klass kamarat under kursens andra del vilket var ett krav.
+Fotografi AB was my first project where I got a case from a fellow classmate Magnus. My classmate wanted a gallery with a contact form and a view. I used jQuery for this project.
 <a href="https://burhanbudak.github.io/Fotografi/" target="_blank">
 <img src="/img/Fotografi.png" frameborder="0" allowfullscreen>
 </a>

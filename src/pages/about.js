@@ -20,7 +20,10 @@ console.log(data)
         fluid={data.image.childImageSharp.fluid}
         />
       <figcaption>
-    <p style={{maxWidth:`400px`}}>Hi, my name is Burhan Budak and a newly graduated Front-end developer from Nackademin vocational school. In my education I learn everything in web development such as JavaScript, HTML, CSS, frameworks and some back-end. The reason I chose Front-end is because I have noticed how the web is growing and how web development is important for the presentation of information.</p>
+    <p style={{maxWidth:`400px`}}> 
+    Hi, my name is Burhan Budak and a newly graduated Front-end developer from Nackademin vocational school.
+      At Nackademin I have worked with several projects where I have developed my knowledge in JavaScript basics, HTML, modern CSS, testing with JEST and Cypress, JavaScript libraries and frameworks through group assignments or independent studies.
+    </p>
       </figcaption> 
     </Main>
         </Layout>

@@ -5,7 +5,7 @@ import footerStyles from "./footer.module.css"
 
 export default () => (
     <footer className={footerStyles.footer}>
-        <h4>Links to my personal socialmedia</h4>
+        <h4>Links to my socialmedia and repo</h4>
         <div className={footerStyles.middle}>
             <div><a href="https://twitter.com/BurhanB98039015" target="_blank" rel="noopener noreferrer"><FaTwitter/></a></div>
             <div><a href="https://github.com/BurhanBudak" target="_blank"  rel="noopener noreferrer"><FaGithub/></a></div>

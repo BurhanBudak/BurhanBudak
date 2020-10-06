@@ -8,7 +8,7 @@ export default () => {
     <Header color='yellow' >
     </Header>
     <Main headerText="Burhan Budak"> 
-    <h2 style={{color:'yellow'}} >- Front-end student</h2>
+    <h2 style={{color:'yellow'}} >- Front-end developer</h2>
     </Main  >
     </Layout>
   )

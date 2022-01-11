@@ -1,6 +1,6 @@
 ### Hi, Im Burhan and Im a Frontend developer👋
 
-## Check out my portfolio[website]
+## Check out my [portfolio]
 [![Website](https://img.shields.io/website?label=burhanbudak.netlify.app/&style=for-the-badge&url=https%3A%2F%2Fburhanbudak.netlify.app/)](https://burhanbudak.netlify.app/)
 
 ### Connect with me:
@@ -51,4 +51,4 @@
   
   
 [linkedin]: https://www.linkedin.com/in/burhan-budak-6921b2130/
-[website]: https://burhanbudak.netlify.app/
+[portfolio]: https://burhanbudak.netlify.app/

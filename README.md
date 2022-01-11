@@ -48,5 +48,5 @@
 </details>
   
   
-  
-  [linkedin]: https://www.linkedin.com/in/burhan-budak-6921b2130/
+[linkedin]: https://www.linkedin.com/in/burhan-budak-6921b2130/
+[website]: https://burhanbudak.netlify.app/

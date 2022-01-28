@@ -1,7 +1,8 @@
 ### Hi, Im Burhan and Im a Frontend developer👋
 
 ## Check out my [portfolio]
-[![Website](https://img.shields.io/website?label=burhanbudak.netlify.app/&style=for-the-badge&url=https%3A%2F%2Fburhanbudak.netlify.app/)](https://burhan-budak.netlify.app/)
+[![Website](https://img.shields.io/website?label=burhanbudak.netlify.app/&style=for-the-badge&url=https%3A%2F%2Fburhan-budak.netlify.app/)](https://burhan-budak.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7aeb11a6-bef7-4800-9edf-ba2c1e3252bc/deploy-status)](https://app.netlify.com/sites/burhan-budak/deploys)
 
 ### Connect with me:
 

@@ -4,29 +4,29 @@ import Header from "../components/header"
 import Main from "../components/main"
 
 import { graphql } from "gatsby"
-import { css } from "@emotion/core"
+import { css } from "@emotion/react"
 import { rhythm } from "../utils/typography"
-export default ({ data }) => {
+const Project = ({ data }) => {
    
   
   
     console.log(data)
     return (
       <Layout>
-        <Header color='#16a085'>
+        <Header color='#e74c3c'>
         </Header>
         <Main headerText="Projects">
 
         <div>
           
-          <h4 style={{color:"#16a085"}}>{data.allMarkdownRemark.totalCount} Posts</h4>
+          <h4 style={{color:"#e74c3c"}}>{data.allMarkdownRemark.totalCount} Posts</h4>
           
           {data.allMarkdownRemark.edges.map(({ node }) => (
           
             
               
             <div key={node.id}>
-              <h3 style={{color:"#16a085"}}
+              <h3 style={{color:"#e74c3c"}}
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
                 `}
@@ -51,8 +51,10 @@ export default ({ data }) => {
         </Main>
       </Layout>
     )
-  }
-  export const query = graphql`
+}
+export default Project
+
+export const query = graphql`
     query {
       allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }) {
         totalCount

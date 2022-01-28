@@ -4,9 +4,7 @@
     align-items: baseline;
     flex-wrap: wrap;
     width: 100%;
-    height: 70px;
-    // position: fixed;
-    top: 0;
+    height: 100%;
     .span{
         display: grid;
         justify-items: center;
@@ -16,7 +14,6 @@
         color:rgb(17, 17, 17);
         font-weight: 900;
         font-family: 'Oxygen', sans-serif;
-        z-index: 10;
         overflow: hidden;
         font-size: 30px;
         height: 70px;
@@ -75,6 +72,9 @@ ul>li>a{
     header:hover .header_h1{
         transform: translate3d(80px, 0px, 0px);
         
+    }
+    span {
+        z-index: 10;
     }
     ul>li{
         font-size: 26px;

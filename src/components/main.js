@@ -1,10 +1,11 @@
 import React from "react"
-import mainStyles from "./main.module.css"
+import * as styles from  "./main.module.css"
 
-export default (props) => (
+const Main = (props) => (
    
-    <main className={mainStyles.main}>
+    <main className={styles.main}>
         <h1>{props.headerText}</h1>
     {props.children}
     </main>
 )
+export default Main

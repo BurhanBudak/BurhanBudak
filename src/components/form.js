@@ -1,11 +1,9 @@
 import React from "react"
-import FormStyles from  "./form.module.scss"
+import * as styles from  "./form.module.scss"
 
-export default () => (
+const Form = () => (
     <div >
-
-   
-        <div className={FormStyles.contact}>
+        <div className={styles.contact}>
             <form 
             method="post" 
             netlify-honeypot="bot-field" 
@@ -37,7 +35,7 @@ export default () => (
                             Subject
                             <input type="text" name="subject" id="subject" required />
                             </label>
-                       <div className={FormStyles.wide}>
+                       <div className={styles.wide}>
                             <label>
                             Message
                             <textarea name="message" id="message" rows="5" />
@@ -45,12 +43,14 @@ export default () => (
                         </div>
                         
                            
-                            <button className={FormStyles.button} type="submit">Send</button>
+                            <button className={styles.button} type="submit">Send</button>
                        
-                            <input className={FormStyles.button} type="reset" value="Clear" />
+                            <input className={styles.button} type="reset" value="Clear" />
                     
                         
                 </form>
             </div>
     </div>
 )
+
+export default Form

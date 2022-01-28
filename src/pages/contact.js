@@ -4,7 +4,7 @@ import Header from "../components/header"
 import Main from "../components/main"
 import Form from "../components/form"
 
-export default () => (
+const Contact = () => (
    
         <Layout>
         <Header color="#2980b9">
@@ -19,3 +19,5 @@ export default () => (
         </Layout>
 
 )
+
+export default Contact;

@@ -3,7 +3,7 @@ import Footer from "../components/footer"
 import Container from "../components/container"
 
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
   <Container>
     {children}
    
@@ -11,3 +11,4 @@ export default ({ children }) => (
     </Footer>
   </Container>
 )
+export default Layout

@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Main from "../components/main"
-export default () => {
+const Index = () => {
   return (
     <Layout>
     <Header color='yellow' >
@@ -13,4 +13,7 @@ export default () => {
     </Layout>
   )
 }
+
+export default Index;
+
 

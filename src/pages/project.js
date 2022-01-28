@@ -4,9 +4,9 @@ import Header from "../components/header"
 import Main from "../components/main"
 
 import { graphql } from "gatsby"
-import { css } from "@emotion/core"
+import { css } from "@emotion/react"
 import { rhythm } from "../utils/typography"
-export default ({ data }) => {
+const Project = ({ data }) => {
    
   
   
@@ -51,8 +51,10 @@ export default ({ data }) => {
         </Main>
       </Layout>
     )
-  }
-  export const query = graphql`
+}
+export default Project
+
+export const query = graphql`
     query {
       allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }) {
         totalCount

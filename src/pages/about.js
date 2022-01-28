@@ -4,7 +4,7 @@ import Header from "../components/header"
 import Main from "../components/main"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
-export default ({data}) => {
+const About = ({data}) => {
 
 
 
@@ -21,14 +21,15 @@ console.log(data)
         />
       <figcaption>
     <p style={{maxWidth:`400px`}}> 
-    Hi, my name is Burhan Budak and a newly graduated Front-end developer from Nackademin vocational school.
-      At Nackademin I have worked with several projects where I have developed my knowledge in JavaScript basics, HTML, modern CSS, testing with JEST and Cypress, JavaScript libraries and frameworks through group assignments or independent studies.
+    Hej mitt namn är Burhan och jag är en dedikerad problemlösare med intresse för digital presentation genom kod.  Just nu söker jag praktik som frontend utvecklare och pluggar Lexikons arbetsmarknadsutbildning för att vidare utveckla mina grunder inom effektiv Frontend-kod jag lärde mig hos Nackademin yrkeshögskola.
     </p>
       </figcaption> 
     </Main>
         </Layout>
 )
 }
+
+export default About;
 
 
 export const query = graphql`

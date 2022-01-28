@@ -51,4 +51,4 @@
   
   
 [linkedin]: https://www.linkedin.com/in/burhan-budak-6921b2130/
-[portfolio]: https://burhanbudak.netlify.app/
+[portfolio]: https://burhan-budak.netlify.app/

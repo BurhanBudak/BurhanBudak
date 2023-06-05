@@ -1,4 +1,4 @@
-### Hi, my names is Burhan and Im a Frontend developer👋
+### Hi, my name is Burhan and Im a Frontend developer👋
 
 ## Check out my [portfolio]
 [![Website](https://img.shields.io/website?label=burhanbudak.netlify.app/&style=for-the-badge&url=https%3A%2F%2Fburhan-budak.netlify.app/)](https://burhan-budak.netlify.app/)
